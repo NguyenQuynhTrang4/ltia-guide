@@ -90,19 +90,19 @@ LTIA Guide/
 
 ### Trang chính
 
-![Trang chính](static/images/home.png)
+![Trang chính](static/images/home.jpg)
 
 ### Tra cứu chuyến bay
 
-![Tra cứu chuyến bay](static/images/flight-search.png)
+![Tra cứu chuyến bay](static/images/flight-search.jpg)
 
 ### Bản đồ sân bay tương tác
 
-![Bản đồ sân bay](static/images/airport-map.png)
+![Bản đồ sân bay](static/images/airport-map.jpg)
 
 ### Hướng dẫn quy trình bay
 
-![Hướng dẫn quy trình bay](static/images/process-guide.png)
+![Hướng dẫn quy trình bay](static/images/process-guide.jpg)
 
 ### Chatbot hỗ trợ hành khách
 
