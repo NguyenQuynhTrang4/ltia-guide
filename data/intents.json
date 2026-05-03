@@ -1,0 +1,273 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "xin chào",
+        "chào bạn",
+        "hello",
+        "hi",
+        "chào"
+      ],
+      "response": "Xin chào! Tôi là trợ lý ảo hỗ trợ hành khách tại Sân bay Long Thành. Bạn cần tôi giúp gì?",
+      "response_en": "Hello! I am a virtual assistant supporting passengers at Long Thanh Airport. How can I help you?"
+    },
+    {
+      "tag": "checkin",
+      "patterns": [
+        "làm thủ tục check in ở đâu",
+        "check in ở đâu",
+        "quầy check in ở đâu",
+        "tôi muốn làm thủ tục bay",
+        "làm thủ tục bay như thế nào",
+        "where is check in",
+        "where can i check in",
+        "where is the check in counter",
+        "how do i check in",
+        "i want to check in"
+      ],
+      "response": "Bạn có thể làm thủ tục tại quầy check-in của hãng hàng không. Hãy kiểm tra mã chuyến bay trên bảng thông tin để biết đúng khu vực quầy.",
+      "response_en": "You can check in at your airline's check-in counter. Please check your flight number on the information screen to find the correct counter area."
+    },
+    {
+      "tag": "domestic_process",
+      "patterns": [
+        "quy trình bay nội địa",
+        "đi máy bay nội địa cần làm gì",
+        "bay nội địa làm thủ tục thế nào",
+        "domestic flight process",
+        "what should i do for a domestic flight",
+        "how to take a domestic flight",
+        "domestic flight procedure"
+      ],
+      "response": "Quy trình bay nội địa gồm: đến sân bay, làm thủ tục check-in, gửi hành lý nếu có, qua kiểm tra an ninh, đến cổng chờ và lên máy bay.",
+      "response_en": "The domestic flight process includes arriving at the airport, completing check-in, dropping off checked baggage if needed, going through security, proceeding to the boarding gate, and boarding the aircraft."
+    },
+    {
+      "tag": "international_process",
+      "patterns": [
+        "quy trình bay quốc tế",
+        "đi máy bay quốc tế cần làm gì",
+        "bay quốc tế làm thủ tục thế nào",
+        "international flight process",
+        "what should i do for an international flight",
+        "how to take an international flight",
+        "international flight procedure"
+      ],
+      "response": "Quy trình bay quốc tế gồm: check-in, gửi hành lý, kiểm tra an ninh, làm thủ tục xuất cảnh, đến cổng chờ và lên máy bay.",
+      "response_en": "The international flight process includes check-in, baggage drop-off, security screening, immigration procedures, going to the boarding gate, and boarding the aircraft."
+    },
+    {
+      "tag": "baggage",
+      "patterns": [
+        "hành lý ký gửi ở đâu",
+        "gửi hành lý ở đâu",
+        "tôi muốn gửi hành lý",
+        "hành lý xách tay quy định thế nào",
+        "where can i drop off my baggage",
+        "where do i check my baggage",
+        "checked baggage",
+        "carry on baggage rules",
+        "hand luggage rules",
+        "baggage rules"
+      ],
+      "response": "Bạn gửi hành lý ký gửi tại quầy check-in của hãng hàng không. Hành lý xách tay cần tuân theo quy định về trọng lượng, kích thước và vật phẩm được phép mang lên máy bay.",
+      "response_en": "You can drop off checked baggage at your airline's check-in counter. Carry-on baggage must follow the airline's rules on weight, size, and permitted items."
+    },
+    {
+      "tag": "lost_baggage",
+      "patterns": [
+        "mất hành lý",
+        "thất lạc hành lý",
+        "không tìm thấy vali",
+        "hành lý bị thất lạc",
+        "lost baggage",
+        "my baggage is missing",
+        "i cannot find my suitcase",
+        "missing luggage",
+        "lost luggage",
+        "where is lost and found"
+      ],
+      "response": "Nếu bị thất lạc hành lý, bạn nên liên hệ quầy Lost & Found hoặc quầy dịch vụ hành lý của hãng hàng không ngay tại khu vực nhận hành lý.",
+      "response_en": "If your baggage is lost or missing, please contact the Lost & Found counter or your airline's baggage service counter near the baggage claim area."
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "có xe buýt về thành phố không",
+        "đi taxi ở đâu",
+        "xe về thành phố hồ chí minh",
+        "phương tiện di chuyển từ sân bay",
+        "is there a bus to the city",
+        "where can i take a taxi",
+        "transportation from the airport",
+        "how can i get to ho chi minh city",
+        "airport bus",
+        "taxi area"
+      ],
+      "response": "Bạn có thể di chuyển từ sân bay bằng taxi, xe công nghệ, xe buýt hoặc xe đưa đón. Khu vực đón xe thường nằm bên ngoài nhà ga đến.",
+      "response_en": "You can travel from the airport by taxi, ride-hailing car, bus, or shuttle service. The pickup area is usually located outside the arrivals terminal."
+    },
+    {
+      "tag": "first_time",
+      "patterns": [
+        "tôi đi máy bay lần đầu",
+        "lần đầu đi máy bay",
+        "hướng dẫn người đi máy bay lần đầu",
+        "đi sân bay lần đầu cần làm gì",
+        "first time flying",
+        "first time at the airport",
+        "i am flying for the first time",
+        "what should i do at the airport for the first time",
+        "guide for first time flyer"
+      ],
+      "response": "Nếu đi máy bay lần đầu, bạn nên đến sân bay sớm: trước 2 tiếng với chuyến nội địa và trước 3 tiếng với chuyến quốc tế. Sau đó tìm quầy check-in của hãng bay, làm thủ tục, qua kiểm tra an ninh và đến cổng chờ.",
+      "response_en": "If this is your first time flying, you should arrive early: about 2 hours before a domestic flight and about 3 hours before an international flight. Then find your airline's check-in counter, complete check-in, go through security, and proceed to your boarding gate."
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+        "đi máy bay cần giấy tờ gì",
+        "bay nội địa cần giấy tờ gì",
+        "bay quốc tế cần giấy tờ gì",
+        "cần căn cước công dân không",
+        "cần hộ chiếu không",
+        "quên giấy tờ tùy thân thì sao",
+        "trẻ em đi máy bay cần giấy tờ gì",
+        "what documents do i need to fly",
+        "what documents are needed for a domestic flight",
+        "what documents are needed for an international flight",
+        "do i need an id card",
+        "do i need a passport",
+        "what if i forget my id",
+        "what documents does a child need to fly"
+      ],
+      "response": "Khi đi máy bay, bạn cần chuẩn bị giấy tờ tùy thân hợp lệ. Bay nội địa thường cần căn cước công dân, chứng minh nhân dân, hộ chiếu hoặc giấy tờ hợp lệ khác. Bay quốc tế cần hộ chiếu và có thể cần visa tùy quốc gia đến. Trẻ em cần giấy khai sinh, hộ chiếu hoặc giấy tờ theo quy định của hãng bay.",
+      "response_en": "When flying, you need to prepare valid identification documents. For domestic flights, passengers usually need an ID card, citizen identification card, passport, or other valid documents. For international flights, a passport is required and a visa may be needed depending on the destination country. Children may need a birth certificate, passport, or documents required by the airline."
+    },
+    {
+      "tag": "arrival_time",
+      "patterns": [
+        "nên đến sân bay trước bao lâu",
+        "bay nội địa nên đến trước mấy tiếng",
+        "bay quốc tế nên đến trước mấy tiếng",
+        "đến sân bay trước bao lâu",
+        "mấy tiếng trước giờ bay nên có mặt",
+        "tôi nên ra sân bay lúc nào",
+        "cần có mặt ở sân bay trước bao lâu",
+        "how early should i arrive at the airport",
+        "how many hours before a domestic flight should i arrive",
+        "how many hours before an international flight should i arrive",
+        "when should i go to the airport",
+        "what time should i arrive at the airport",
+        "how early should i be at the airport"
+      ],
+      "response": "Bạn nên đến sân bay trước khoảng 2 tiếng đối với chuyến bay nội địa và trước khoảng 3 tiếng đối với chuyến bay quốc tế. Nếu có hành lý ký gửi, đi cùng trẻ em, người lớn tuổi hoặc bay vào giờ cao điểm, bạn nên đi sớm hơn để tránh trễ chuyến.",
+      "response_en": "You should arrive at the airport about 2 hours before a domestic flight and about 3 hours before an international flight. If you have checked baggage, travel with children or elderly passengers, or fly during peak hours, you should arrive earlier to avoid missing your flight."
+    },
+    {
+      "tag": "prohibited_items",
+      "patterns": [
+        "vật phẩm nào bị cấm mang lên máy bay",
+        "không được mang gì lên máy bay",
+        "đồ cấm mang lên máy bay",
+        "dao kéo có được mang lên máy bay không",
+        "chất lỏng có được mang lên máy bay không",
+        "pin sạc dự phòng có được mang lên máy bay không",
+        "có được mang bật lửa lên máy bay không",
+        "mang chất dễ cháy lên máy bay được không",
+        "what items are prohibited on the plane",
+        "what can i not bring on the plane",
+        "prohibited items on airplane",
+        "can i bring knives or scissors",
+        "can i bring liquids on the plane",
+        "can i bring a power bank",
+        "can i bring a lighter",
+        "can i bring flammable items"
+      ],
+      "response": "Bạn không nên mang dao, kéo, vật sắc nhọn, chất dễ cháy nổ, hóa chất nguy hiểm hoặc vật phẩm bị cấm theo quy định an ninh hàng không. Chất lỏng khi bay quốc tế thường cần tuân theo giới hạn dung tích. Pin sạc dự phòng thường phải mang trong hành lý xách tay và cần đúng dung lượng cho phép của hãng bay.",
+      "response_en": "You should not bring knives, scissors, sharp objects, flammable or explosive materials, dangerous chemicals, or items prohibited by aviation security regulations. Liquids on international flights usually need to follow volume limits. Power banks are usually required to be carried in carry-on baggage and must meet the airline's capacity limits."
+    },
+    {
+      "tag": "airport_services",
+      "patterns": [
+        "trong sân bay có dịch vụ gì",
+        "sân bay có wifi không",
+        "có wifi miễn phí không",
+        "nhà vệ sinh ở đâu",
+        "có khu ăn uống không",
+        "có nhà hàng không",
+        "có quán cà phê không",
+        "có phòng chờ không",
+        "có cây atm không",
+        "có quầy đổi tiền không",
+        "có chỗ sạc điện thoại không",
+        "what services are available at the airport",
+        "is there wifi at the airport",
+        "is there free wifi",
+        "where is the restroom",
+        "is there a food court",
+        "are there restaurants",
+        "is there a cafe",
+        "is there a lounge",
+        "is there an atm",
+        "is there a currency exchange counter",
+        "is there a phone charging area"
+      ],
+      "response": "Trong sân bay thường có các dịch vụ như wifi, nhà vệ sinh, khu ăn uống, quán cà phê, phòng chờ, ATM, quầy đổi tiền, khu sạc điện thoại và quầy hỗ trợ hành khách. Bạn có thể xem bản đồ sân bay hoặc hỏi nhân viên tại quầy thông tin để tìm khu vực gần nhất.",
+      "response_en": "The airport usually provides services such as Wi-Fi, restrooms, food courts, cafés, lounges, ATMs, currency exchange counters, phone charging areas, and passenger information counters. You can check the airport map or ask staff at the information counter to find the nearest service area."
+    },
+    {
+      "tag": "special_assistance",
+      "patterns": [
+        "người già đi máy bay cần hỗ trợ gì",
+        "người khuyết tật có được hỗ trợ không",
+        "có xe lăn trong sân bay không",
+        "tôi cần xe lăn",
+        "trẻ em đi một mình thì sao",
+        "phụ nữ mang thai đi máy bay cần gì",
+        "hành khách cần hỗ trợ đặc biệt",
+        "có hỗ trợ người cao tuổi không",
+        "có hỗ trợ người khuyết tật không",
+        "is wheelchair assistance available",
+        "i need a wheelchair",
+        "special assistance for passengers",
+        "assistance for elderly passengers",
+        "assistance for disabled passengers",
+        "can children travel alone",
+        "what support is available for pregnant passengers",
+        "passenger needs special assistance"
+      ],
+      "response": "Sân bay và hãng hàng không thường có dịch vụ hỗ trợ hành khách đặc biệt như người cao tuổi, người khuyết tật, phụ nữ mang thai, trẻ em đi một mình hoặc hành khách cần xe lăn. Bạn nên liên hệ hãng hàng không trước chuyến bay để đăng ký hỗ trợ, sau đó đến quầy làm thủ tục hoặc quầy thông tin tại sân bay để được hướng dẫn.",
+      "response_en": "Airports and airlines usually provide special assistance for elderly passengers, passengers with disabilities, pregnant passengers, unaccompanied children, or passengers who need a wheelchair. You should contact your airline before the flight to request assistance, then go to the check-in counter or information counter at the airport for further guidance."
+    },
+    {
+      "tag": "airport_incidents",
+      "patterns": [
+        "mất căn cước ở sân bay thì sao",
+        "mất hộ chiếu ở sân bay thì làm gì",
+        "mất giấy tờ tùy thân thì sao",
+        "bị trễ chuyến bay thì sao",
+        "tôi bị trễ chuyến bay",
+        "không tìm thấy cổng bay",
+        "không biết cổng ra máy bay ở đâu",
+        "không tìm thấy quầy check in",
+        "không tìm thấy quầy check-in",
+        "bị lạc trong sân bay",
+        "tôi bị lạc ở sân bay",
+        "what should i do if i lose my id at the airport",
+        "what should i do if i lose my passport",
+        "i lost my documents at the airport",
+        "what if i miss my flight",
+        "i missed my flight",
+        "i cannot find my gate",
+        "where is my boarding gate",
+        "i cannot find the check in counter",
+        "i am lost at the airport",
+        "airport emergency"
+      ],
+      "response": "Nếu gặp sự cố tại sân bay, bạn nên bình tĩnh và liên hệ ngay quầy thông tin, nhân viên sân bay hoặc quầy của hãng hàng không. Nếu mất giấy tờ, hãy báo cho nhân viên an ninh hoặc quầy hỗ trợ để được hướng dẫn. Nếu bị trễ chuyến, hãy đến quầy hãng bay càng sớm càng tốt để kiểm tra phương án đổi chuyến hoặc hỗ trợ tiếp theo.",
+      "response_en": "If you have an issue at the airport, stay calm and contact the information counter, airport staff, or your airline counter as soon as possible. If you lose your documents, report it to airport security or the support counter for guidance. If you miss your flight, go to your airline counter immediately to check available rebooking or support options."
+    }
+  ]
+}

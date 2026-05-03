@@ -1,0 +1,31 @@
+{
+    "flights": [
+      {
+        "flight_no": "VN123",
+        "airline": "Vietnam Airlines",
+        "route": "Long Thanh - Ha Noi",
+        "time": "08:30",
+        "gate": "A05",
+        "checkin_counter": "C01 - C08",
+        "status": "Đang làm thủ tục"
+      },
+      {
+        "flight_no": "VJ456",
+        "airline": "Vietjet Air",
+        "route": "Long Thanh - Da Nang",
+        "time": "10:15",
+        "gate": "B02",
+        "checkin_counter": "D01 - D06",
+        "status": "Đúng giờ"
+      },
+      {
+        "flight_no": "QH789",
+        "airline": "Bamboo Airways",
+        "route": "Long Thanh - Singapore",
+        "time": "13:45",
+        "gate": "C10",
+        "checkin_counter": "E01 - E04",
+        "status": "Chưa mở check-in"
+      }
+    ]
+  }
