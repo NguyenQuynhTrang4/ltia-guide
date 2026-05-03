@@ -90,7 +90,7 @@ LTIA Guide/
 
 ### Trang chính
 
-![Trang chính](static/images/home.jpg)
+![Trang chính](static/images/main.jpg)
 
 ### Tra cứu chuyến bay
 
@@ -106,7 +106,7 @@ LTIA Guide/
 
 ### Chatbot hỗ trợ hành khách
 
-![Chatbot hỗ trợ hành khách](static/images/chatbot.png)
+![Chatbot hỗ trợ hành khách](static/images/chatbot.jpg)
 
 ---
 
