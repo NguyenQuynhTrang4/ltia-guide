@@ -431,11 +431,11 @@ static/images/
 Ví dụ thêm các ảnh:
 
 ```text
-home.png
-flight-search.png
-airport-map.png
-process-guide.png
-chatbot.png
+main.jpg
+flight-search.jpg
+airport-map.jpg
+process-guide.jpg
+chatbot.jpg
 ```
 
 ### Bước 3: Gọi ảnh trong README
@@ -443,13 +443,13 @@ chatbot.png
 Cú pháp Markdown:
 
 ```markdown
-![Mô tả ảnh](static/images/home.png)
+![Mô tả ảnh](static/images/main.jpg)
 ```
 
 Ví dụ:
 
 ```markdown
-![Trang chính](static/images/home.png)
+![Trang chính](static/images/main.jpg)
 ```
 
 Nếu ảnh không hiện trên GitHub, kiểm tra lại:
