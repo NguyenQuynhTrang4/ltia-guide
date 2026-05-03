@@ -491,17 +491,116 @@ Dữ liệu chuyến bay và bản đồ hiện là dữ liệu mẫu, chưa k�
 
 ## Hướng phát triển trong tương lai
 
-Project có thể phát triển thêm:
+Trong các phiên bản tiếp theo, LTIA Guide có thể được phát triển theo các hướng sau:
 
-- Kết nối cơ sở dữ liệu SQLite, MySQL hoặc PostgreSQL
-- Thêm trang quản trị dữ liệu chuyến bay
-- Thêm trang quản trị dữ liệu chatbot
-- Tích hợp API chuyến bay thời gian thực
-- Tích hợp bản đồ sân bay chi tiết hơn
-- Tích hợp chatbot RAG từ tài liệu PDF
-- Thêm xác thực người dùng
-- Triển khai lên hosting hoặc cloud server
-- Đóng gói thành PWA để dùng giống ứng dụng cài đặt trên điện thoại
+### 1. Kết nối dữ liệu chuyến bay thời gian thực
+
+Hiện tại dữ liệu chuyến bay đang được lưu trong file JSON mẫu.  
+Trong tương lai, hệ thống có thể tích hợp API chuyến bay thật để cập nhật:
+
+- Giờ bay
+- Cổng ra máy bay
+- Quầy check-in
+- Trạng thái chuyến bay
+- Thông tin trễ chuyến hoặc hủy chuyến
+
+Điều này giúp ứng dụng hoạt động gần hơn với hệ thống hỗ trợ hành khách thực tế tại sân bay.
+
+### 2. Thêm cơ sở dữ liệu
+
+Dữ liệu hiện tại đang được lưu bằng file JSON.  
+Có thể nâng cấp sang cơ sở dữ liệu như SQLite, MySQL hoặc PostgreSQL để quản lý dữ liệu tốt hơn.
+
+Các dữ liệu có thể lưu trong database gồm:
+
+- Danh sách chuyến bay
+- Nội dung chatbot
+- Lịch sử câu hỏi
+- Thông tin khu vực trong sân bay
+- Dịch vụ hỗ trợ hành khách
+
+### 3. Xây dựng trang quản trị
+
+Có thể phát triển thêm trang quản trị để nhân viên dễ dàng cập nhật dữ liệu mà không cần sửa trực tiếp file JSON.
+
+Trang quản trị có thể hỗ trợ:
+
+- Thêm, sửa, xóa chuyến bay
+- Cập nhật trạng thái chuyến bay
+- Quản lý câu hỏi và câu trả lời chatbot
+- Quản lý dữ liệu bản đồ sân bay
+- Quản lý nội dung song ngữ Việt / Anh
+
+### 4. Nâng cấp chatbot thông minh hơn
+
+Chatbot hiện tại hoạt động theo hướng intent-based, dựa trên các mẫu câu có sẵn trong file JSON.  
+Trong tương lai có thể nâng cấp bằng các kỹ thuật AI như:
+
+- Tìm kiếm ngữ nghĩa bằng embeddings
+- RAG từ tài liệu PDF
+- Tích hợp mô hình ngôn ngữ lớn
+- Gợi ý câu trả lời theo ngữ cảnh
+- Hỗ trợ nhiều ngôn ngữ hơn
+
+Điều này giúp chatbot trả lời linh hoạt hơn, kể cả khi người dùng hỏi bằng câu không giống hoàn toàn dữ liệu mẫu.
+
+### 5. Tích hợp tài liệu hướng dẫn sân bay
+
+Có thể bổ sung chức năng đọc và tra cứu thông tin từ các tài liệu như:
+
+- Quy định hành lý
+- Quy trình check-in
+- Quy định xuất nhập cảnh
+- Hướng dẫn an ninh hàng không
+- Dịch vụ hỗ trợ hành khách đặc biệt
+
+Khi đó chatbot có thể trả lời dựa trên tài liệu chính thức thay vì chỉ dựa trên dữ liệu mẫu.
+
+### 6. Cải thiện bản đồ sân bay
+
+Bản đồ hiện tại là bản đồ minh họa đơn giản.  
+Có thể nâng cấp thành bản đồ trực quan hơn với:
+
+- Sơ đồ tầng
+- Vị trí các cổng ra máy bay
+- Vị trí quầy check-in
+- Khu vực nhà hàng, ATM, nhà vệ sinh
+- Chỉ đường từ vị trí hiện tại đến khu vực cần tìm
+
+### 7. Cải thiện giao diện người dùng
+
+Có thể nâng cấp UI/UX để ứng dụng thân thiện hơn với hành khách:
+
+- Thiết kế responsive tốt hơn cho điện thoại
+- Thêm biểu tượng trực quan
+- Thêm chế độ sáng/tối
+- Thêm animation nhẹ
+- Tối ưu giao diện cho kiosk hoặc màn hình thông tin sân bay
+
+### 8. Triển khai online
+
+Ứng dụng có thể được triển khai lên các nền tảng cloud như Render, Railway hoặc PythonAnywhere để người dùng có thể truy cập qua Internet.
+
+Sau khi deploy, project có thể có:
+
+- Link demo online
+- Tự động cập nhật khi push code lên GitHub
+- Môi trường chạy ổn định hơn so với localhost
+
+### 9. Đóng gói thành PWA
+
+Trong tương lai có thể phát triển ứng dụng thành Progressive Web App, giúp người dùng có trải nghiệm gần giống ứng dụng cài đặt trên điện thoại.
+
+PWA có thể hỗ trợ:
+
+- Thêm biểu tượng ra màn hình chính
+- Tải nhanh hơn
+- Giao diện giống mobile app
+- Một số chức năng hoạt động offline
+
+### 10. Mục tiêu dài hạn
+
+Mục tiêu dài hạn của LTIA Guide là trở thành một hệ thống hỗ trợ hành khách thông minh cho sân bay, có thể cung cấp thông tin nhanh, chính xác và dễ hiểu cho cả hành khách Việt Nam và hành khách quốc tế.
 
 ---
 
