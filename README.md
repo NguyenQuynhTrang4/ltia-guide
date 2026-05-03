@@ -112,12 +112,13 @@ LTIA Guide/
 
 ## Cách chạy project
 
-## Demo online
+### Demo online
 
 Ứng dụng đã được triển khai online tại:
 
-```text
-https://ltia-guide.onrender.com/
+[https://ltia-guide.onrender.com/](https://ltia-guide.onrender.com/)
+
+> Link demo có thể mất vài giây để khởi động nếu server đang ở trạng thái sleep.
 
 ### Bước 1: Clone project từ GitHub
 
